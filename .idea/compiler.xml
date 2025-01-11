@@ -2,7 +2,7 @@
 <project version="4">
   <component name="CompilerConfiguration">
     <excludeFromCompile>
-      <file url="file://$PROJECT_DIR$/client-service/src/main/java/com/ouahidi/clientservice/ClientServiceApplication.java" />
+      <file url="file://$PROJECT_DIR$/user-service/src/main/java/com/ouahidi/clientservice/ClientServiceApplication.java" />
     </excludeFromCompile>
     <annotationProcessing>
       <profile default="true" name="Default" enabled="true" />
@@ -29,9 +29,9 @@
         <processorPath useClasspath="false">
           <entry name="$MAVEN_REPOSITORY$/org/projectlombok/lombok/1.18.36/lombok-1.18.36.jar" />
         </processorPath>
-        <module name="commande-sevice" />
-        <module name="produit-service" />
-        <module name="client-service" />
+        <module name="movie-service" />
+        <module name="user-service" />
+        <module name="booking-service" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
@@ -41,14 +41,14 @@
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
-      <module name="client-service" options="-parameters" />
-      <module name="commande-sevice" options="-parameters" />
+      <module name="booking-service" options="-parameters" />
       <module name="config-service" options="-parameters" />
       <module name="discovery-service" options="-parameters" />
       <module name="gateway-service" options="-parameters" />
       <module name="materiel-service" options="-parameters" />
+      <module name="movie-service" options="-parameters" />
       <module name="produit" options="-parameters" />
-      <module name="produit-service" options="-parameters" />
+      <module name="user-service" options="-parameters" />
     </option>
   </component>
 </project>
