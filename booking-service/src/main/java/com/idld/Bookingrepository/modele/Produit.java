@@ -1,8 +1,5 @@
-package com.ouahidi.commandesevice.modele;
+package com.idld.Bookingrepository.modele;
 
-import jakarta.persistence.GeneratedValue;
-import jakarta.persistence.GenerationType;
-import jakarta.persistence.Id;
 import lombok.*;
 
 @AllArgsConstructor

@@ -1,4 +1,4 @@
-package com.ouahidi.commandesevice.modele;
+package com.idld.Bookingrepository.modele;
 
 
 import lombok.*;
