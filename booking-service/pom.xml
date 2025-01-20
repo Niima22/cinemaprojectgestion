@@ -11,7 +11,7 @@
     <groupId>com.ouahidi</groupId>
     <artifactId>booking-service</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <name>commande-sevice</name>
+    <name>booking-service</name>
     <description>commande-sevice</description>
     <url/>
     <licenses>
