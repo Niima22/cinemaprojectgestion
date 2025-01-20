@@ -11,8 +11,8 @@
     <groupId>com.ouahidi</groupId>
     <artifactId>movie-service</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <name>produit-service</name>
-    <description>produit-service</description>
+    <name>movie-service</name>
+    <description>movie-service</description>
     <url/>
     <licenses>
         <license/>

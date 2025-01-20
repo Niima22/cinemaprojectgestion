@@ -11,8 +11,8 @@
     <groupId>com.ouahidi</groupId>
     <artifactId>user-service</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <name>client-service</name>
-    <description>client-service</description>
+    <name>user-service</name>
+    <description>user-service</description>
     <url/>
     <licenses>
         <license/>
