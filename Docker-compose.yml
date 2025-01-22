@@ -1,3 +1,4 @@
+version: "3"
 services:
   discovery-service:
     build: ./discovery-service
@@ -27,8 +28,8 @@ services:
       discovery-service:
         condition:  service_healthy
   client-service:
-    build: ./client-service
-    container_name: client-dock
+    build: ./user-service
+    container_name: user-dock
     ports:
       - '9091:9091'
     expose:
@@ -44,8 +45,8 @@ services:
       config-service:
         condition: service_healthy
   produit-service:
-    build: ./produit-service
-    container_name: produit-dock
+    build: ./movie-service
+    container_name: movie-dock
     ports:
       - '9092:9092'
     expose:
@@ -61,8 +62,8 @@ services:
       config-service:
         condition: service_healthy
   commande-service:
-    build: ./commande-sevice
-    container_name: commande-dock
+    build: ./booking-service
+    container_name: booking-dock
     ports:
       - '9093:9093'
     expose:
